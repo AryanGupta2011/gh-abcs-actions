@@ -4,7 +4,7 @@ on:
   [workflow_dispatch]
 env:
   -envA: "dd"
-  -envB: "dd"
+  -envB: "ddr"
 
 jobs:
   call_greet_everyone_workflow_job:
