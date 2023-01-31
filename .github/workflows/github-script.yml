@@ -1,6 +1,5 @@
 name: 05-1. GitHub Script - Thank you
-on:
-  workflow_dispatch:
+on: 
   issues: 
     types: [opened, edited, reopened, labeled]
 
