@@ -25,7 +25,7 @@ jobs:
         if: 1 != 2
         run: |
           echo "::error file={name},line={line},endLine={endLine},title={title}::{message}"
-          exit 1
+          
   call_demo_workflow_job:
     needs: call_greet_everyone_workflow_job
     uses: githubabcs/gh-abcs-actions/.github/workflows/github-actions-demo.yml@main
